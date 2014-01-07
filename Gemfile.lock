@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bouncy-castle-java (1.5.0147)
+    jruby-jars (1.7.9)
+    jruby-lint (0.4.1)
+      jruby-openssl
+      nokogiri (>= 1.5.0.beta.4)
+      term-ansicolor
+    jruby-openssl (0.9.4)
+      bouncy-castle-java (>= 1.5.0147)
+    jruby-rack (1.1.13.3)
+    mini_portile (0.5.2)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    nokogiri (1.6.1-java)
+      mini_portile (~> 0.5.0)
+    rake (10.1.1)
+    rubyzip (1.0.0)
+    term-ansicolor (1.2.2)
+      tins (~> 0.8)
+    tins (0.13.1)
+    warbler (1.4.0)
+      jruby-jars (>= 1.5.6)
+      jruby-rack (>= 1.0.0)
+      rake (>= 0.9.6)
+      rubyzip (>= 0.9, < 1.1)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  jruby-lint
+  warbler
